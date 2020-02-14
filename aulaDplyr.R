@@ -27,3 +27,5 @@ t <- iris %>%                                     #Transformar a tabela
 iris %>% 
   group_by(Species) %>% 
   summarise(media = mean(Petal.Length), media2 = mean(Petal.Width))
+
+glimpse(t)
